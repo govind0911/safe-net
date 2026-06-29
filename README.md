@@ -1,21 +1,106 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# SafeNet (Prototype)
 
-# Run and deploy your AI Studio app
+> **⚠️ This repository is an early prototype and is NOT a functional emergency safety application.**
 
-This contains everything you need to run your app locally.
+## Overview
 
-View your app in AI Studio: https://ai.studio/apps/9e2cbebc-b35b-4c5a-8b4b-6f2ba6e6f452
+SafeNet is a personal learning project exploring the design and architecture of an emergency safety application using **Kotlin**, **Jetpack Compose**, and **Material 3**.
 
-## Run Locally
+The current version primarily focuses on:
 
-**Prerequisites:**  [Android Studio](https://developer.android.com/studio)
+* UI/UX design
+* Application architecture
+* Navigation
+* Reusable Compose components
+* Overall user experience
 
+This repository **should not be considered a finished product**.
 
-1. Open Android Studio
-2. Select **Open** and choose the directory containing this project
-3. Allow Android Studio to fix any incompatibilities as it imports the project.
-4. Create a file named `.env` in the project directory and set `GEMINI_API_KEY` in that file to your Gemini API key (see `.env.example` for an example)
-5. Remove this line from the app's `build.gradle.kts` file: `signingConfig = signingConfigs.getByName("debugConfig")`
-6. Run the app on an emulator or physical device
+---
+
+## Current Status
+
+**Prototype / UI Concept**
+
+Most screens are visual prototypes intended to demonstrate the application's planned structure rather than complete functionality.
+
+---
+
+## What Works
+
+* Modern Material 3 interface
+* Dark tactical UI
+* Navigation between screens
+* Reusable UI components
+* MVVM-based project structure
+
+---
+
+## What Doesn't Work Yet
+
+This project is **not production ready**.
+
+The following features are either missing, incomplete, simulated, or not connected to a backend:
+
+* Firebase Authentication
+* Firestore Database
+* Google Maps
+* Live GPS Tracking
+* Emergency SOS Backend
+* Push Notifications (FCM)
+* Emergency Contacts
+* Nearby Helpers
+* Live Location Sharing
+* Chat
+* Offline Support
+* Security Rules
+* Real API Integrations
+
+Some screens may contain placeholder or simulated functionality.
+
+---
+
+## Purpose
+
+The goal of this repository is to document the early stages of building SafeNet and to iterate toward a fully functional application over time.
+
+---
+
+## Tech Stack
+
+* Kotlin
+* Jetpack Compose
+* Material 3
+* Android Studio
+* MVVM Architecture
+
+---
+
+## Roadmap
+
+Planned future work includes:
+
+* Firebase Authentication
+* Cloud Firestore
+* Google Maps Integration
+* Live Location Tracking
+* SOS Workflow
+* Emergency Contacts
+* Push Notifications
+* Realtime Updates
+* Backend Integration
+* Production Testing
+
+---
+
+## Disclaimer
+
+This project is an experimental prototype created for learning, UI exploration, and architecture practice.
+
+It is **not suitable for real emergency situations**, should **not** be relied upon for personal safety, and is **not intended for production use** in its current state.
+
+---
+
+## License
+
+MIT License
